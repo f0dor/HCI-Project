@@ -1,3 +1,3 @@
-# [Class Project Title]
+# [Figma essentials]
 
-Provide a short description of your results, if applicable.
+Filmed a short video on Figma showing knowledge of constraints, auto-layout, plugins, components, grids, etc.
