@@ -97,4 +97,4 @@
 - Contact form
 - Social media links
 
-[Sitemap](https://github.com/f0dor/HCI-Project/blob/main/misc/Untitled-2023-10-23-2055.png?raw=true)
+![Sitemap](https://github.com/f0dor/HCI-Project/blob/main/misc/Untitled-2023-10-23-2055.png?raw=true)
