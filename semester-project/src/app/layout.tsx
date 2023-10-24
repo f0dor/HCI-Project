@@ -21,11 +21,20 @@ export default function RootLayout({
       <nav>
         <ul className="flex flex-row justify-between w-14">
           <li>
-            <Link href="/showcase">Showcase</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
-            </li>
+            <Link href="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link href="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link href="/skills">Skills</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
         {children}
