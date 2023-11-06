@@ -20,6 +20,9 @@ export default function RootLayout({
       <body className={inter.className}>
       <nav>
         <ul className="flex flex-row justify-between w-14">
+        <li>
+            <Link href="/">Home</Link>
+          </li>
           <li>
             <Link href="/about">About</Link>
           </li>
