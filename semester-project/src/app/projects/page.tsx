@@ -1,9 +1,7 @@
 export default function ProjectsPage() {
     return (
-        <div>
-            <h1>Projects</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+      <main className="flex min-h-screen flex-col items-center justify-between p-10">
+        <h1 className="text-3xl font-bold">Projects</h1>
+      </main>
     );
-
-}
+  }

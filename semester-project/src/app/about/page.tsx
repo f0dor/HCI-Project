@@ -1,7 +1,7 @@
-export default function AboutPage() {
+export default function About() {
     return (
-        <div>
-            <h1>About page!</h1>
-        </div>
+      <main className="flex min-h-screen flex-col items-center justify-between p-10">
+        <h1 className="text-3xl font-bold">About Page</h1>
+      </main>
     );
-}
+  }

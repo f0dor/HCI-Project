@@ -1,9 +1,7 @@
-export default function ContactPage() {
+export default function Contact() {
     return (
-        <div>
-            <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+      <main className="flex min-h-screen flex-col items-center justify-between p-10">
+        <h1 className="text-3xl font-bold">Contact Page</h1>
+      </main>
     );
-
-}
+  }
