@@ -5,6 +5,7 @@ import {
   Roboto,
   Roboto_Condensed,
   Playfair_Display,
+  Montserrat,
 } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -27,6 +28,12 @@ const playfairDisplay = Playfair_Display({
   variable: "--font-playfair",
 });
 
+const montserrat = Montserrat({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
+
 export const metadata: Metadata = {
   title: {
     template: "Lab project | %s",
@@ -46,10 +53,11 @@ export default function RootLayout({
       className={clsx(
         roboto.variable,
         roboto_condensed.variable,
-        playfairDisplay.variable
+        playfairDisplay.variable,
+        montserrat.variable,
       )}
     >
-      <body className={`${inter.className} bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900`}>
+      <body className={`${inter.className} bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-800 to-indigo-900`}>
         <Navbar />
         {children}
         <Footer />

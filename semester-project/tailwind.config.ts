@@ -18,7 +18,7 @@ const config: Config = {
         'custom-dark-blue': '#0D203F',
         'custom-black': '#020914',
         'nav-font-color': '#86B4FB',
-        'nav-hovered-font-color': '#AFCFFF',
+        'nav-hovered-font-color': '#D7E6FF',
         'logo-font-color': '#E3703F',
         'navbar-background-color': '#1831576A',
       },

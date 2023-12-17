@@ -16,7 +16,7 @@ const MobileNav = ({ pages, open, clickHandler }: MobileNavProps) => {
   return (
     <nav
       className={cn(
-        "flex lg:hidden items-center justify-center p-20 w-screen absolute top-0 z-20 bg-sky-600 opacity-99 rounded-3xl",
+        "flex lg:hidden items-center justify-center p-20 w-screen absolute top-0 z-20 bg-sky-700 opacity-99 rounded-3xl",
         { hidden: !open }
       )}
       onClick={() => clickHandler(!open)}
@@ -27,9 +27,9 @@ const MobileNav = ({ pages, open, clickHandler }: MobileNavProps) => {
             <Link href={href}>
               <span
                 className={cn(
-                  "uppercase whitespace-nowrap font-roboto-condensed text-base px-5 py-3 rounded-sm text-brand-purple-900 hover:bg-brand-purple-300",
+                  "uppercase whitespace-nowrap font-roboto-condensed text-base px-5 py-3 rounded-sm text-nav-font-color bg-brand-purple-100 transition-transform hover:shadow-md hover:text-white",
                   {
-                    "bg-brand-purple-700 text-brand-purple-100 pointer-events-none":
+                    "bg-brand-purple-700 text-nav-hovered-font-color pointer-events-none":
                       pathname === href,
                   }
                 )}
