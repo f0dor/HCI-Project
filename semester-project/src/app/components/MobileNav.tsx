@@ -16,7 +16,7 @@ const MobileNav = ({ pages, open, clickHandler }: MobileNavProps) => {
   return (
     <nav
       className={cn(
-        "flex lg:hidden items-center justify-center p-20 w-screen absolute top-0 right-0 z-20 bg-white opacity-95",
+        "flex lg:hidden items-center justify-center p-20 w-screen absolute top-0 z-20 bg-sky-600 opacity-99 rounded-3xl",
         { hidden: !open }
       )}
       onClick={() => clickHandler(!open)}

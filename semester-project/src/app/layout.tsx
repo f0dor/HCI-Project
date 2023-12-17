@@ -49,7 +49,7 @@ export default function RootLayout({
         playfairDisplay.variable
       )}
     >
-      <body className={`${inter.className} bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-top`}>
+      <body className={`${inter.className} bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900`}>
         <Navbar />
         {children}
         <Footer />

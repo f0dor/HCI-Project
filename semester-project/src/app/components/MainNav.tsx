@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "../lib/utils";
 import { Page } from "./Navbar";
+import "../custom.css";
 
 const MainNav = ({ pages }: { pages: Page[] }) => {
   const pathname = usePathname();
