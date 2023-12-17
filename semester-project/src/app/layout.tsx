@@ -49,7 +49,7 @@ export default function RootLayout({
         playfairDisplay.variable
       )}
     >
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-top`}>
         <Navbar />
         {children}
         <Footer />

@@ -25,7 +25,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-around">
       <Logo />
       <MainNav pages={pages} />
       <Hamburger open={open} clickHandler={setOpen} />

@@ -95,7 +95,7 @@ const Logo = ({ dark = false }) => (
     <span
       className={cn(
         "font-roboto-condensed font-bold text-3xl whitespace-nowrap",
-        { "text-brand-purple-900": !dark, "text-brand-purple-200": dark }
+        { "text-logo-font-color": !dark, "text-black": dark }
       )}
     >
       &lt;f0dor/&gt;
