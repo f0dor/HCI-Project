@@ -94,7 +94,7 @@ const Logo = ({ dark = false }) => (
     <LogoIcon />
     <span
       className={cn(
-        "font-roboto-condensed font-bold text-3xl whitespace-nowrap",
+        "font-roboto-condensed tracking-widest font-bold text-3xl whitespace-nowrap",
         { "text-logo-font-color": !dark, "text-black": dark }
       )}
     >

@@ -15,6 +15,7 @@
     "flowbite": "^2.2.0",
     "flowbite-react": "^0.7.2",
     "next": "^14.0.3",
+    "next-google-fonts": "^2.2.0",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.0.0"

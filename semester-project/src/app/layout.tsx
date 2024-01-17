@@ -4,6 +4,7 @@ import {
   Inter,
   Roboto,
   Roboto_Condensed,
+  Roboto_Mono,
   Playfair_Display,
   Montserrat,
 } from "next/font/google";
@@ -18,20 +19,27 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 const roboto_condensed = Roboto_Condensed({
-  weight: ["300", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   variable: "--font-roboto-condensed",
 });
+
+const roboto_mono = Roboto_Mono({
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-roboto-mono",
+});
+
+const montserrat = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
+
 const playfairDisplay = Playfair_Display({
   weight: ["400", "800"],
   subsets: ["latin"],
   variable: "--font-playfair",
-});
-
-const montserrat = Montserrat({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
@@ -53,6 +61,7 @@ export default function RootLayout({
       className={clsx(
         roboto.variable,
         roboto_condensed.variable,
+        roboto_mono.variable,
         playfairDisplay.variable,
         montserrat.variable,
       )}
