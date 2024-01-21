@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-10">
-      <div className="about-padding-main text-white text-center font-roboto-mono">
+      <div className="about-padding-main text-white text-center font-roboto-mono text-2xl">
         <p className=" width-about padding-p-about">Hello! My name is Marko. I’m from Croatia and I’m interested in becoming a computer engineer.
           I like coding, math, physics, electronics, philosophy, girls, you name it.
         </p>
