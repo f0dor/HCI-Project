@@ -16,3 +16,50 @@
     background: rgba(24, 49, 87, 0.25);
     border-radius: 50px;
 }
+
+
+/* About*/
+.about-padding-main {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+}
+.text-white {
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+.width-about {
+    max-width: 40rem;
+    width: auto;
+}
+.padding-p-about {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* navbar */
+
+.margin-x-navbar {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* Projects ---------------------------------------------------------------------*/
+
+.margin-project {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 10%;
+    max-width: 50rem;
+    height: fit-content;
+}
+.margin-project-text {
+    margin-top: 3rem;
+    padding-left: 2%;
+    padding-right: 2%;
+}

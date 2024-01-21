@@ -25,7 +25,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-around mx-20 my-5 custom-background">
+    <div className="flex items-center justify-between margin-x-navbar custom-background" >
       <Logo />
       <MainNav pages={pages} />
       <Hamburger open={open} clickHandler={setOpen} />

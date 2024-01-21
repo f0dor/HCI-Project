@@ -6,9 +6,9 @@ type IconSize = {
   height?: number;
 };
 
-const LogoIcon = ({ width = 84, height = 84 }: IconSize) => {
+const LogoIcon = ({ width = 500, height = 500 }: IconSize) => {
   return (
-      <Image
+      <Image style={{width : '50px', height : '50px'}}
         src="/images/logo.png"
         alt="Logo"
         width={width}
@@ -18,7 +18,7 @@ const LogoIcon = ({ width = 84, height = 84 }: IconSize) => {
 };
 
 const Logo = ({ dark = false }) => (
-  <div className="flex items-center justify-between gap-2">
+  <div className="flex items-center justify-start gap-2">
     <LogoIcon/>
     <span
       className={cn(
