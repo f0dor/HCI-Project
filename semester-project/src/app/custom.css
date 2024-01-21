@@ -70,3 +70,11 @@
     margin-left: 25px;
     aspect-ratio: 4/3;
 }
+
+
+/* home ---------------------------------------------------------------------*/
+
+.hero-flex {
+    display: flex;
+    flex-flow: wrap;
+}
