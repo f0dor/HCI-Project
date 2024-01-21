@@ -24,19 +24,23 @@
     padding-right: 20%;
     padding-top: 30px;
 }
+
 .text-white {
     color: #fff;
 }
+
 .text-center {
     text-align: center;
 }
+
 .width-about {
     max-width: 40rem;
     width: auto;
 }
+
 .padding-p-about {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* navbar */
@@ -58,12 +62,14 @@
     max-width: 50rem;
     height: fit-content;
 }
+
 .margin-project-text {
     margin-top: 0.5rem;
     padding-left: 2%;
     padding-right: 2%;
 }
-.project-image{
+
+.project-image {
     height: 100%;
     width: 50%;
     border-radius: 25px;
