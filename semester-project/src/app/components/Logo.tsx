@@ -26,7 +26,7 @@ const Logo = ({ dark = false }) => (
         { "text-logo-font-color": !dark, "text-black": dark }
       )}
     >
-      programming matters.
+      code matters.
     </span>
   </div>
 );
