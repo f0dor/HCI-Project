@@ -10,7 +10,7 @@ export default function About() {
         <p className="width-about padding-p-about">I enjoy coding in C and C++. Embedded computing is something I&apos;m interested in. 
         Working 
         with 
-        micro controllers might be stressful sometimes but when it works, it's just so satisfying being able to physically see something you programmed work as intended.
+        micro controllers might be stressful sometimes but when it works, it&apos;s just so satisfying being able to physically see something you programmed work as intended.
         </p>
         <p className="width-about padding-p-about">I&apos;m not just interested in embedded software. I always wanted to try game development, or networking stuff, or be a systems designer.
         </p>
