@@ -7,7 +7,7 @@ interface ButtonProps {
 export const ButtonWhite: React.FC<ButtonProps> = ({ buttonText }) => {
     return (
         <button className="bg-white rounded-xl px-4 py-2">
-            <span className="text-lg text-black font-roboto-mono">{buttonText}</span>
+            <span className="text-lg text-button-white-text font-roboto-mono">{buttonText}</span>
         </button>
     );
 };

@@ -21,6 +21,7 @@ const config: Config = {
         'nav-hovered-font-color': '#D7E6FF',
         'logo-font-color': '#E3703F',
         'navbar-background-color': '#1831576A',
+        'button-white-text': '#458CF9',
       },
   },
   plugins: [],
