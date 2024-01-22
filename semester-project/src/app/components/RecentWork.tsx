@@ -19,8 +19,8 @@ const RecentWorkElement = () => {
 const RecentWork = () => {
     return (
         <div>
-            <div><span>Some of my recent work</span></div>
-            <div className='grid col-span-3 grid-cols-3 my-20'>
+            <div className='some-work-css p-5 text-white'><span>Some of my recent work</span></div>
+            <div className='my-20 recent-grid'>
                 <RecentWorkElement/>
                 <RecentWorkElement/>
                 <RecentWorkElement/>

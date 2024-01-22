@@ -100,7 +100,7 @@
 .margin-recent{
     margin: auto;
     max-width: 20rem;
-    background: rgba(24, 49, 87, 0.681);
+    background: #5684CC;
     border-radius: 7px;
 }
 
@@ -110,4 +110,26 @@
     max-height: 30rem;
     border-radius: 5px;
     padding-bottom: 1rem;
+}
+
+.recent-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+@media  (max-width: 1100px) {
+    .recent-grid {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: none;
+    }
+    
+}
+
+.some-work-css{
+    margin: auto;
+    width: fit-content;
+    max-width: 20rem;
+    background: rgba(69, 140, 249, 0.12);
+    border-radius: 25px;
 }
