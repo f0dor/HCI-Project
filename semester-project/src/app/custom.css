@@ -120,6 +120,8 @@
 .recent-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    max-width: fit-content;
+    margin: auto;
     grid-gap: 1rem;
     padding: 1rem;
 }
