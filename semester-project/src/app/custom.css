@@ -113,8 +113,8 @@
 }
 
 .line-height {
-    line-height: 2.25rem;
-    letter-spacing: -0.02em;
+    line-height: 2.4rem;
+    letter-spacing: 0.05em;
 }
 
 .recent-grid {
@@ -123,15 +123,16 @@
     grid-gap: 1rem;
     padding: 1rem;
 }
-@media  (max-width: 1100px) {
+
+@media (max-width: 1100px) {
     .recent-grid {
         grid-template-rows: repeat(3, auto);
         grid-template-columns: none;
     }
-    
+
 }
 
-.some-work-css{
+.some-work-css {
     margin: auto;
     width: fit-content;
     max-width: 20rem;
