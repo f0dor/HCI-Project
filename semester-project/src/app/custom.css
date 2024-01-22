@@ -97,7 +97,7 @@
     justify-content: center;
 }
 
-.margin-recent{
+.margin-recent {
     margin: auto;
     max-width: 20rem;
     background: #5684CC;
@@ -110,6 +110,11 @@
     max-height: 30rem;
     border-radius: 5px;
     padding-bottom: 1rem;
+}
+
+.line-height {
+    line-height: 2.25rem;
+    letter-spacing: -0.02em;
 }
 
 .recent-grid {
