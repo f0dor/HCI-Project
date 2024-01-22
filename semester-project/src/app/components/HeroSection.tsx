@@ -6,10 +6,10 @@ const HeroSection = () => {
   return (
     <div className="text-white py-20 hero-flex">
       <div className="container mx-auto text-left flex-1 pt-40 px-20 max-lg:py-2">
-        <p className="text-3xl text-left whitespace-wrap font-roboto-mono mx-auto sm:px-2 md:px-5 lg:px-10 max-sm:text-md max-md:text-xl">Diving into the world of code and circuits.
+        <p className="text-3xl text-left whitespace-wrap font-roboto-mono mx-auto sm:px-2 md:px-5 lg:px-40 max-sm:text-md max-md:text-xl">Diving into the world of code and circuits.
           I&apos;m <span className="text-logo-font-color font-roboto-mono tracking-widest font-bold text-3xl whitespace-nowrap">&lt;f0dor/&gt;</span>, a tech enthusiast with a vision to engineer the future.
           Join me on this technological adventure.</p>
-        <div className="sm:px-2 md:px-5 lg:px-10">
+        <div className="sm:px-5 md:px-10 lg:px-20">
           <ButtonWhite buttonText={"Download CV"}></ButtonWhite>
           <ButtonBlue buttonText={"Contact"}></ButtonBlue>
         </div>
