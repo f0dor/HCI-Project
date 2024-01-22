@@ -138,3 +138,33 @@
     background: rgba(69, 140, 249, 0.12);
     border-radius: 25px;
 }
+
+
+/* footer ---------------------------------------------------------------------*/
+.footer-css{
+    padding: 1rem;
+    color: #E3703F;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(69, 186, 249, 0.204);
+    border-radius: 25px;
+    max-width: fit-content;
+    align-items: center;
+}
+.foot-item{
+    padding: 0 0.5rem;
+    margin: 0 0.5rem;
+}
+
+@media (max-width: 800px) {
+    .footer-css {
+        padding: 1.5rem;
+        margin: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+}
