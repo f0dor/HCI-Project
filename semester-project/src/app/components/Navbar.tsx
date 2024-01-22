@@ -19,6 +19,7 @@ const pages: Page[] = [
   { href: "/skills", title: "Skills" },
   { href: "/blog", title: "Blog" },
   { href: "/contact", title: "Contact" },
+  { href: "/cms/blog", title: "Blogg" },
 ];
 
 const Navbar = () => {

@@ -23,7 +23,7 @@ const config: Config = {
         'navbar-background-color': '#1831576A',
       },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
   }
 }
 export default config;
