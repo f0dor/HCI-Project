@@ -85,8 +85,6 @@
     .margin-project {
         flex-direction: column;
         max-width: 30rem;
-        margin-left: 4%;
-        margin-right: 4%;
     }
 }
 
@@ -97,4 +95,19 @@
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+}
+
+.margin-recent{
+    margin: auto;
+    max-width: 20rem;
+    background: rgba(24, 49, 87, 0.681);
+    border-radius: 7px;
+}
+
+.recent-image {
+    height: 100%;
+    width: 100%;
+    max-height: 30rem;
+    border-radius: 5px;
+    padding-bottom: 1rem;
 }
