@@ -85,6 +85,8 @@
     .margin-project {
         flex-direction: column;
         max-width: 30rem;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 
