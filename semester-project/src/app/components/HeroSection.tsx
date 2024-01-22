@@ -10,9 +10,8 @@ const HeroSection = () => {
           Join me on this technological adventure.</p>
       </div>
 
-      <div className=" hidden md:block pl-40">
-        {/* 'hidden md:block' will hide the image on screens smaller than md (medium) size */}
-        <Image src="/images/hsimage.png" alt="Hero section image" width={500} height={500} />
+      <div className="">
+        <Image src="/images/hsimage.png" alt="Hero section image" width={500} height={500}/>
       </div>
     </div>
   );
