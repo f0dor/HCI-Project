@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.5",
     "clsx": "^2.0.0",
+    "contentful": "^10.6.16",
     "flowbite": "^2.2.0",
     "flowbite-react": "^0.7.2",
     "next": "^14.1.0",
