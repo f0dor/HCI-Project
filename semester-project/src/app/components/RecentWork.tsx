@@ -19,7 +19,7 @@ const RecentWorkElement = () => {
 const RecentWork = () => {
     return (
         <div>
-            <div><span>Some of my recent work</span></div>
+            <div className="flex bg-nav-font-color mx-20"><span className="mx-auto text-white">Some of my recent work</span></div>
             <div className='grid col-span-3 grid-cols-3 my-20'>
                 <RecentWorkElement/>
                 <RecentWorkElement/>
