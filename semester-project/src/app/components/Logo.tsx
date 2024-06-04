@@ -20,14 +20,7 @@ const LogoIcon = ({ width = 500, height = 500 }: IconSize) => {
 const Logo = ({ dark = false }) => (
   <div className="flex items-center justify-start gap-2">
     <LogoIcon/>
-    <span
-      className={cn(
-        "font-roboto-condensed tracking-wide font-bold text-2xl whitespace-nowrap",
-        { "text-logo-font-color": !dark, "text-black": dark }
-      )}
-    >
-      code matters.
-    </span>
+    
   </div>
 );
 

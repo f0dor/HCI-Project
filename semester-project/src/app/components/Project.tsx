@@ -8,7 +8,7 @@ type ProjectCardProps = {
 const ProjectCard = ({ side }: ProjectCardProps) => {
     if (side == "left") {
         return (
-            <div className="text-white font-roboto-mono  flex flex-row items-center custom-background margin-project">
+            <div className="text-white font-roboto-mono flex flex-row items-center custom-background margin-project">
                 <Image src="/images/projectphoto.jpg" alt="Project photo" width={200} height={200} className="project-image" />
                 <div className="flex flex-col justify-between margin-project-text">
                     <h1 className="py-1 text-center text-lg text-logo-font-color ">DEVICE FOR ACCURATE MEASUREMENT OF SPEED AND TIME IN SPORTS ACTIVITIES</h1>
@@ -21,7 +21,8 @@ const ProjectCard = ({ side }: ProjectCardProps) => {
                     </a>
                 </div>
             </div>
-        );
+        ); 
+        //remove the if statement, it does not go left right no more-----------------------------------------------
     } else {
         return (
             <div className="text-white font-roboto-mono  flex flex-row items-center custom-background margin-project">
@@ -39,7 +40,6 @@ const ProjectCard = ({ side }: ProjectCardProps) => {
             </div>
         );
     }
-
 };
 
 export default ProjectCard;
