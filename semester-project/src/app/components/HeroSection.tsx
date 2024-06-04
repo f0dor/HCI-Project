@@ -5,20 +5,14 @@ import { ButtonWhite, ButtonBlue } from "./ui/button";
 const HeroSection = () => {
   return (
     <div className="text-white py-20 hero-flex">
-      <div className="container mx-auto text-left flex-1 pt-40 px-20 max-lg:py-2">
-        <p className="text-3xl text-left line-height whitespace-wrap font-roboto-mono mx-auto sm:px-2 md:px-5 lg:px-40 max-sm:text-md max-md:text-xl">Diving into the world of code and circuits.
-          I&apos;m <span className="text-logo-font-color font-roboto-mono tracking-widest font-bold text-3xl whitespace-nowrap">&lt;f0dor/&gt;</span>, a tech enthusiast with a vision to engineer the future.
-          Join me on this technological adventure.</p>
-        <div className="sm:px-5 md:px-10 lg:px-20">
-          <div className="text-center">
-            <ButtonWhite buttonText={"Download CV"}></ButtonWhite>
-            <ButtonBlue buttonText={"Contact"}></ButtonBlue>
-          </div>
-        </div>
-      </div>
+      <div className="container mx-auto text-left flex-1 pt-20 px-20 max-lg:py-2">
+        <div className="text-xl text-left line-height whitespace-wrap mx-auto sm:px-2 md:px-5 lg:px-20 max-sm:text-md max-md:text-xl text-logo-font-color font-bold">Hello, my name is Marko</div>
+        <div className="text-5xl text-left line-height whitespace-wrap mx-auto sm:px-2 md:px-5 lg:px-20 py-10 max-sm:text-md max-md:text-xl">I do computer engineering stuff.</div>
+        <p className="text-xl text-left line-height whitespace-wrap mx-auto sm:px-2 md:px-5 lg:px-20 max-sm:text-md max-md:text-xl">
+          I am currently enrolled in the graduate program of <span className="text-logo-font-color tracking-widest font-bold text-xl whitespace-nowrap">Computer Science</span> at <span className="text-logo-font-color font-roboto-mono tracking-widest font-bold text-xl whitespace-nowrap">FESB</span>.
+          <br />I've done projects in areas such as <span className="whitespace-wrap text-logo-font-color tracking-widest font-bold text-xl whitespace-nowrap">machine learning</span>,<span className="whitespace-wrap text-logo-font-color font-roboto-mono tracking-widest font-bold text-xl whitespace-nowrap"> data science</span>,<span className="whitespace-wrap text-logo-font-color font-roboto-mono tracking-widest font-bold text-xl whitespace-nowrap"> web-dev</span>,<span className="whitespace-wrap text-logo-font-color font-roboto-mono tracking-widest font-bold text-xl whitespace-nowrap"> embedded computing</span>,<span className="whitespace-wrap text-logo-font-color font-roboto-mono tracking-widest font-bold text-xl whitespace-nowrap"> etc.</span>
+        </p>
 
-      <div className="px-20">
-        <Image src="/images/hsimage.png" alt="Hero section image" width={500} height={500} />
       </div>
     </div>
   );

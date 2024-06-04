@@ -66,7 +66,7 @@ export default function RootLayout({
         montserrat.variable,
       )}
     >
-      <body className={`${inter.className} bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-800 to-indigo-900 lg:px-20`}>
+      <body className={`${inter.className} root-background lg:px-20`}>
         <Navbar />
         {children}
         <Footer />

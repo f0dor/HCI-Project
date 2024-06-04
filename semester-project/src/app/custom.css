@@ -17,6 +17,10 @@
     border-radius: 50px;
 }
 
+.root-background {
+    background: rgba(0, 14, 35, 1);
+}
+
 
 /* About*/
 .about-padding-main {
