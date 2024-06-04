@@ -12,6 +12,10 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.menu-background{
+    background: rgba(0, 14, 35, 1);
+}
+
 .custom-background {
     background: rgba(24, 49, 87, 0.25);
     border-radius: 50px;
@@ -104,8 +108,9 @@
 .margin-recent {
     margin: auto;
     max-width: 20rem;
-    background: #5684CC;
+    background: rgba(0, 14, 35, 1);
     border-radius: 7px;
+    border: rgba(131, 126, 126, 0.26) 1px solid;
 }
 
 .recent-image {
@@ -139,29 +144,21 @@
 }
 
 .some-work-css {
-    margin: auto;
-    width: fit-content;
-    max-width: 20rem;
-    background: rgba(69, 140, 249, 0.12);
-    border-radius: 25px;
+    border-top: rgba(131, 126, 126, 0.26) 1px solid;
 }
 
 
 /* footer ---------------------------------------------------------------------*/
 .footer-css{
     padding: 1rem;
-    color: #E3703F;
-    margin: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    background: rgba(69, 186, 249, 0.204);
-    border-radius: 25px;
-    max-width: fit-content;
+    color: rgba(187, 222, 251, 1);
+    border-top: rgba(131, 126, 126, 0.26) 1px solid;
+    margin: auto;
     align-items: center;
 }
 .foot-item{
     padding: 0 0.5rem;
-    margin: 0 0.5rem;
+    margin: auto;
 }
 
 @media (max-width: 800px) {
@@ -172,6 +169,5 @@
         margin-right: auto;
         flex-direction: column;
         text-align: center;
-    
     }
 }
